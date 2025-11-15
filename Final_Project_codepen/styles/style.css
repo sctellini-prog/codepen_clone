@@ -1,0 +1,229 @@
+body {
+    color: #fff;
+    background: linear-gradient(to bottom right, #555555, #111111);
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+
+h1 {
+    color: #fff;
+    font-weight:200;
+    font-size: 40px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.blue-text {
+    color: aqua;
+}
+.bold-text {
+    font-weight: bolder;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navigation-wrapper {
+    display: flex;
+    height: 45px;
+    background-color: black;
+    color: #cbcbcb;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0px;
+}
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.navigation-wrapper > .left-column > .icon-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+
+}
+.navigation-wrapper > .left-column > .icon-logo img {
+    width: 200px !important;
+    height: auto;
+    display: block;
+}
+
+   
+
+
+.navigation-wrapper > .center-column {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-wrapper > .center-column > .menu-wrapper {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-link a {
+    color: #cbcbcb;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-link a:hover {
+    color: white;
+}
+
+
+.navigation-wrapper > .right-column {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column > button.create, .button.login, button.sign-up {
+    color: #fff;
+    background-color: #36454F;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+}
+.navigation-wrapper > .right-column > button.create span {
+    color: #47cf73 !important;
+    font-weight: bolder;
+}
+
+
+.hero-content {
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hero-content > .hero-content-left {
+    flex: 60%;
+    margin: 10px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-content > .hero-content-left .hero-buttons {
+   display: flex;
+   align-items:start;
+   gap: 10px;
+   padding: 0px;
+   margin: 0px;
+}
+
+.hero-content > .hero-content-left .hero-buttons .sign-up-for-free {
+    font-size: 32px;
+    font-weight: normal;
+    color: black;
+    background-color: #3EBF00;
+    padding: 15px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.hero-content > .hero-content-left .hero-buttons .learn-more {
+    font-size: 32px;
+    font-weight: normal;
+    color: white !important;
+    background-color: black;
+    padding: 15px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.hero-content > .hero-content-right {
+    flex: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items:start;
+}
+
+.hero-content > .hero-content-right .hero-right-text {
+    margin: 2px;
+    padding: 0px;
+}
+
+.hero-content-right .hero-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+}   
+
+.products-wrapper {
+    height: 50px;
+    width: auto;
+    background-color: #555555;
+    color: white;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+.products-wrapper > div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgrey;
+    padding: 0px;
+    margin: 0px;
+}
+.products-wrapper > div a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 12px 15px;
+}
+
+.products-wrapper > div > a > .product-span {
+    display: inline-block !important;
+    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px !important;
+    font-weight: bold !important;
+    margin-left: 5px !important;
+}
+
+
